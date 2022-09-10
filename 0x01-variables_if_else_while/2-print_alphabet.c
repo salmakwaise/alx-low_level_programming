@@ -1,20 +1,24 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - print the letters of the alphabet
+ *
+ * Description: print the letters of the alphabet
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c;
-	
-	for (c = 'a'; c <= 'z'; c++)
+	int i = 97;
 
-		putchar(c);
-	
-	putchar('\n');
-		
-return (0);
+	while (i < 123)
+	{
+		putchar(i);
+		i++;
+	}
+	putchar(10);
+
+	return (0);
 }
 	
 	
