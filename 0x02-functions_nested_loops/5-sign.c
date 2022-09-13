@@ -1,26 +1,34 @@
-#include "holberton.h"
+#include"main.h"
+
 /**
- * print_sign - a function that prints the sign of a number
- * @n: number input
- * Return: 1 prints '+' if n > 0, 0 prints '0' if n = 0, -1 prints '-' if n < 0
- */
+ * print_sign - print + if n is greater than zero,
+ *             0 if n is zero and - if n is less
+ *             than zero.
+ *
+ * @n: takes integer type input for function.
+ *
+ * Return: 1 if +, 0 if 0 and -1 if -
+*/
+
 int print_sign(int n)
 {
 	if (n > 0)
 	{
-		_putchar ('+');
+		_putchar(43 + 0);
 		return (1);
 	}
 	else if (n == 0)
 	{
-		_putchar ('0');
+		_putchar(0 + 48);
 		return (0);
 	}
 	else
 	{
-		_putchar ('-');
+		_putchar(45 + 0);
 		return (-1);
 	}
 }
 Footer
+© 2022 GitHub, Inc.
+Footer navigation
 
