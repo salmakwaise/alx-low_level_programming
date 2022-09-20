@@ -1,15 +1,11 @@
-/**
- * _isupper - check if c is upper
- *
- * @c: input for alphabet
- *
- * Return: 1 if its uppercase, 0 if not
-*/
+#include "main.h"
 
-int _isupper(int c)
+/**
+ * reset_to_98 - Takes a pointer to an int and updates
+ *               the value it points to to 98.
+ * @n: The pointer to an int.
+ */
+void reset_to_98(int *n)
 {
-	if (c >= 65 && c <= 90)
-		return (1);
-	else
-		return (0);
+	*n = 98;
 }
